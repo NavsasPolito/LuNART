@@ -1,18 +1,18 @@
 # LuGRE Navigation Analysis and Reporting Tool (LuNART)
-LuGRE Mission's tool developed by the Navigation Signal Analysis and Simulation (NavSAS) research group from Politecnico di Torino (Turin, Italy). Funded by Agenzia Spaziale Italiana (ASI).
-Copyright (c) 2025 NavSAS Group <[your.email@example.com]>
+LuGRE Mission's tool developed by the Navigation Signal Analysis and Simulation (NavSAS) research group from Politecnico di Torino (Turin, Italy). Funded by Agenzia Spaziale Italiana (ASI).  
+Copyright (c) 2025 NavSAS Group
 
 This project includes scripts from third-party components:
 
-- gps-measurement-tools (Copyright 2016 Google Inc.).
+- gps-measurement-tools (Copyright 2016 Google Inc.).  
   Licensed under the Apache License, Version 2.0.
 
-- Borre, K., Akos, D. M., Bertelsen, N., Rinder, P., & Jensen, S. H. (2007). A software-defined GPS and Galileo receiver: a single-frequency approach. Boston, MA: Birkhäuser Boston.
+- Borre, K., Akos, D. M., Bertelsen, N., Rinder, P., & Jensen, S. H. (2007). A software-defined GPS and Galileo receiver: a single-frequency approach. Boston, MA: Birkhäuser Boston.  
   Originally licensed under "GPLv2 or later" and redistributed here under the GNU General Public License, version 3 (GPLv3).
 
 All modifications and newly written code by Simone Zocca, Alex Minetto, Andrea Nardin, Oliviero Vouch
 are licensed under the GNU General Public License, version 3 (GPLv3).
-See all licence texts in `LICENSE/` for details.
+See all licence texts in `licences/` for details.
 
 ## Getting started
 
