@@ -1,0 +1,3 @@
+inputFilePath=C:\Users\Guest\Documents\LuGRE
+outputFilePath=C:\Users\Guest\Document\Results
+spcOperators=Operator01,Operator02,Operator03
