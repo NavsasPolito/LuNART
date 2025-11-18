@@ -10,9 +10,9 @@ This project includes scripts from third-party components:
 - Borre, K., Akos, D. M., Bertelsen, N., Rinder, P., & Jensen, S. H. (2007). A software-defined GPS and Galileo receiver: a single-frequency approach. Boston, MA: Birkhäuser Boston.  
   Originally licensed under "GPLv2 or later" and redistributed here under the GNU General Public License, version 3 (GPLv3).
 
-All modifications and newly written code by Simone Zocca, Alex Minetto, Andrea Nardin, Oliviero Vouch
-are licensed under the GNU General Public License, version 3 (GPLv3).
-See all licence texts in `licences/` for details.
+All modifications and newly written code by Simone Zocca, Alex Minetto, Andrea Nardin and Oliviero Vouch are licensed under the GNU General Public License, version 3 (GPLv3). See all licence texts in `licences/` for details.
+Special thanks for their contributions and feedback to (in alphabetical orded): Luis Domingo, Francesco Fiorina, Yihan Guo, Luca Morichi, Lorenzo Sciacca.
+All work done under the supervision of professor Fabio Dovis.
 
 Copyright 2025 NavSAS Group (navsas@polito.it)
 
@@ -103,7 +103,7 @@ Once the operator has finished working on a given OP, it may click on the **Rese
 ## MATLAB version and toolboxes
 
 > [!NOTE]
-> In order to run the **LuNaRT** on your system, we suggest to install **MATLAB 2023a** or more recent releases and the following toolboxes.
+> In order to run the **LuNART** on your system, we suggest to install **MATLAB 2023a** or more recent releases and the following toolboxes.
 
 ### Toolboxes dependencies
 
