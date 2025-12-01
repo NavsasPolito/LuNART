@@ -53,12 +53,13 @@ Upon launching the tool for the first time, the user is presented with the appli
 - **"Operation Summary Report"**: Operators can create an Operation Summary Report (OSR) from the reports generated during the scientific experiments.
 
 Before starting to process LuGRE data, the user should provide valid input and output folders: 
-- **"Input folder"** should be set as the root of the folder containing LuGRE data. Please note that the folder structure and file names **must not** be changed, otherwise the LuNART will not be able to locate the files correctly. Also, this folder should be on your machine and not on external drives.
+- **"Input folder"** should be set as the root of the folder containing LuGRE data. Please note that the folder structure and file names should **NOT** be changed, otherwise the LuNART will not be able to locate the files correctly. Also, this folder should be on your machine and not on external drives.
 - **"Output folder"** can be any existing folder where the operator has writing permission. This will be used as the root folder to save all results.
+*(Note: If, after selecting these folders, the associated lamps are still red, please check that you have read and write permissions. Depending on the machine and operating system, you may need to open LuNART file either from Matlab or directly from file explorer for this to work.)*
 
 Once the user has selected valid folders, the lamps will turn green and you can proceed to process the data. These folders will be remembered for future use and can be changed at any time.
 *(Note: This process only checks wheter the folders exist and the operator has permission, it does NOT check if the input folder has the correct structure and file names.)*
-Additionally, the operator name can be selected using a drop down from a list. This list can be edited from the "settings/config.txt" file, which also contains the input and output folder names.
+Additionally, the operator name can be selected using a drop down from a list. This list can be edited from the file `settings/config.txt`, which also contains the input and output folder names.
 
 ### 1. Session Configuration
 
@@ -96,7 +97,7 @@ The **Configuration** tab is composed of two main sections:
 
 ### 4. Operation and operator switch
 
-Once the operator has finished working on a given OP, it may click on the **Reset Settion** button on the bottom right of the **Configuration** page. This allows to change the operator and/or start the processing of another OP. Please note that this is equivalent to closing and re-opening the LuNART.
+Once the operator has finished working on a given OP, it may click on the **Reset Settion** button on the bottom right of the **Configuration** page. This allows to change the operator and/or start processing another OP. Please note that this is equivalent to closing and re-opening the LuNART.
 
 
 
