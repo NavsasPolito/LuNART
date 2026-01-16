@@ -41,14 +41,15 @@ for i = 1:length(m.obsSolutions)
         sIdx = find(diff(isnan(cmc)) == -1) + 1;
         eIdx = find(diff(isnan(cmc)) == 1);
 
-        sIdx = sIdx(~ismember(sIdx, find(nSat == 0) + 1));
-        eIdx = eIdx(~ismember(eIdx, find(nSat == 0) - 1));
+        %sIdx = sIdx(~ismember(sIdx, find(nSat == 0) + 1));
+        %eIdx = eIdx(~ismember(eIdx, find(nSat == 0) - 1));
 
-        if numel(sIdx) < numel(eIdx)
-            sIdx = [1 sIdx];
-        elseif numel(eIdx) < numel(sIdx)
-            eIdx = [eIdx timeIdx(end)];
-        end      
+        if ~isnan(cmc(1))
+             sIdx = [1 sIdx];
+        end
+        if ~isnan(cmc(end))
+             eIdx = [eIdx timeIdx(end)];
+        end
 
         for j = 1:numel(sIdx)
             %--- First approach, take the mean
