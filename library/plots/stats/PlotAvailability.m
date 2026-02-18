@@ -31,9 +31,9 @@ E5mission = zeros(1,length(m1.obsSolutions(1).cn0));
 for j = 1:length(m1.obsSolutions)
     channel = char(m1.obsSolutions(j).channel);
     switch channel(1:2)
-        case 'G1'
+        case 'L1'
             G1mission = G1mission + double(m1.obsSolutions(j).cn0 > settings.mission.G1th);
-        case 'G5'
+        case 'L5'
             G5mission = G5mission + double(m1.obsSolutions(j).cn0 > settings.mission.G5th);
         case 'E1'
             E1mission = E1mission + double(m1.obsSolutions(j).cn0 > settings.mission.E1th);
@@ -63,9 +63,9 @@ if ~isempty(varargin)
     for j = 1:length(m3.obsSolutions)
         channel = char(m3.obsSolutions(j).channel);
         switch channel(1:2)
-            case 'G1'
+            case 'L1'
                 G1reference = G1reference + double(m3.obsSolutions(j).cn0 > settings.reference.G1th);
-            case 'G5'
+            case 'L5'
                 G5reference = G5reference + double(m3.obsSolutions(j).cn0 > settings.reference.G5th);
             case 'E1'
                 E1reference = E1reference + double(m3.obsSolutions(j).cn0 > settings.reference.E1th);

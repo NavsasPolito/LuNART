@@ -12,11 +12,11 @@ channels = [obsSolutions.channel];
 
 %--- Search where GPS PRNs are in obsSolutions
 for j = 1:32
-    temp = intersect(find(PRNs == j), find(contains(channels,"G1")));
+    temp = intersect(find(PRNs == j), find(contains(channels,"L1")));
     if isscalar(temp)
         idxPRNL1(j) = temp;
     end
-    temp = intersect(find(PRNs == j), find(contains(channels,"G5")));
+    temp = intersect(find(PRNs == j), find(contains(channels,"L5")));
     if isscalar(temp)
         idxPRNL5(j) = temp;
     end
