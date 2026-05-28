@@ -25,9 +25,9 @@ function [obs] = parseObs_ASI(RAW, channel, time)
 
 %--- Find which indexes we are considering
 % useful for SURFACE to only take PRNs present in the selected interval
-[~,~,rawIdxs] = intersect(time, [RAW.rxTime]);
+%[~,~,rawIdxs] = intersect(time, [RAW.rxTime]);
 %--- Find which PRNs are present in that window
-PRN = unique([RAW(rawIdxs).svId]);
+PRN = unique([RAW(:).svId]);
 
 %--- Initialize
 obs = struct([]);
